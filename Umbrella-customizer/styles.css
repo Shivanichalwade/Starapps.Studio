@@ -1,0 +1,81 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf6fd;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Customizer Text */
+.customizer {
+    text-align: left;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Color Selection Buttons */
+.color-options {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.color-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+/* Upload Button */
+.upload-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Umbrella Preview */
+.umbrella-preview {
+    position: relative;
+    max-width: 400px;
+}
+
+.umbrella-preview img {
+    width: 100%;
+}
+
+/* Logo Image */
+#logo-img {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100px;
+    opacity: 0.9;
+}
+
+.logo{
+    position: relative;
+    color: #fefefe;
+    right: 10px;
+    top: 4px;
+}
